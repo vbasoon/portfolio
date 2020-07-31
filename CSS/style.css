@@ -104,10 +104,13 @@ margin: 0 auto;
    padding-bottom: 60px;
 }
 
+.text-center {
+   text-align: center;
+}
+
 .about__content{
    display: flex;
    justify-content: space-between;
-   align-items: center;
    position: relative;
    padding-top: 200px;
    padding-bottom: 270px;
@@ -188,7 +191,6 @@ top: 50px;
 }
 
 .services__text-block {
-   text-align: center;
    padding-bottom: 50px;
 }
 
@@ -231,5 +233,27 @@ top: 50px;
 
 
 .portfolio {
-   padding: 50px;
+   padding-top: 50px;
+   height: 80vh;
+}
+
+.portfolio__text-block {
+   font-size: 32px;
+  
+}
+
+.portfolio__title {
+   margin-top: 0;
+font-weight: 500;
+}
+
+.portfolio__grid {
+   display: grid;
+   grid-gap: 45px;
+   grid-template: repeat(7,1fr)/repeat(3, 1fr);
+}
+
+.portfolio__grid img {
+   display: block;
+   width: 100%;
 }
